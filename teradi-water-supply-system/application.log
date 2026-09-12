@@ -1,0 +1,81 @@
+2026-08-15 21:15:10.441  INFO 22352 --- [main] c.n.TerdiWaterSuppySchemeApplication     : Starting TerdiWaterSuppySchemeApplication using Java 17.0.12 on LAPTOP-KVPJFA46 with PID 22352 (D:\Nikhil\NikhilProject\Terdi_Water_SuppyScheme\target\classes started by Amisha More in D:\Nikhil\NikhilProject\Terdi_Water_SuppyScheme)
+2026-08-15 21:15:10.448  INFO 22352 --- [main] c.n.TerdiWaterSuppySchemeApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-08-15 21:15:11.184  INFO 22352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-15 21:15:11.200  INFO 22352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2026-08-15 21:15:11.863  INFO 22352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-08-15 21:15:11.875  INFO 22352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-15 21:15:11.876  INFO 22352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-08-15 21:15:12.269  INFO 22352 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-08-15 21:15:12.279  INFO 22352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-15 21:15:12.279  INFO 22352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1766 ms
+2026-08-15 21:15:12.459  INFO 22352 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Starting...
+2026-08-15 21:15:12.832  INFO 22352 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Start completed.
+2026-08-15 21:15:12.907  INFO 22352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-08-15 21:15:12.998  INFO 22352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2026-08-15 21:15:13.234  INFO 22352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-08-15 21:15:13.368  INFO 22352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2026-08-15 21:15:13.595  INFO 22352 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-08-15 21:15:13.606  INFO 22352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-15 21:15:13.681  WARN 22352 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-15 21:15:13.974  WARN 22352 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2026-08-15 21:15:13.976  INFO 22352 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-15 21:15:13.979  INFO 22352 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Shutdown initiated...
+2026-08-15 21:15:13.986  INFO 22352 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Shutdown completed.
+2026-08-15 21:15:13.988  INFO 22352 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-08-15 21:15:14.002  INFO 22352 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-08-15 21:15:14.022 ERROR 22352 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-15 21:16:16.948  INFO 3792 --- [main] c.n.TerdiWaterSuppySchemeApplication     : Starting TerdiWaterSuppySchemeApplication using Java 17.0.12 on LAPTOP-KVPJFA46 with PID 3792 (D:\Nikhil\NikhilProject\Terdi_Water_SuppyScheme\target\classes started by Amisha More in D:\Nikhil\NikhilProject\Terdi_Water_SuppyScheme)
+2026-08-15 21:16:16.951  INFO 3792 --- [main] c.n.TerdiWaterSuppySchemeApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-08-15 21:16:17.546  INFO 3792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-15 21:16:17.564  INFO 3792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2026-08-15 21:16:18.072  INFO 3792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-08-15 21:16:18.082  INFO 3792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-15 21:16:18.083  INFO 3792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-08-15 21:16:18.464  INFO 3792 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-08-15 21:16:18.473  INFO 3792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-15 21:16:18.473  INFO 3792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1471 ms
+2026-08-15 21:16:18.612  INFO 3792 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Starting...
+2026-08-15 21:16:18.989  INFO 3792 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Start completed.
+2026-08-15 21:16:19.053  INFO 3792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-08-15 21:16:19.105  INFO 3792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2026-08-15 21:16:19.300  INFO 3792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-08-15 21:16:19.417  INFO 3792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2026-08-15 21:16:19.605  INFO 3792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-08-15 21:16:19.618  INFO 3792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-15 21:16:19.704  WARN 3792 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-15 21:16:20.123  INFO 3792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-08-15 21:16:20.138  INFO 3792 --- [main] c.n.TerdiWaterSuppySchemeApplication     : Started TerdiWaterSuppySchemeApplication in 3.609 seconds (JVM running for 4.364)
+2026-08-15 21:16:34.701  INFO 3792 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-15 21:16:34.701  INFO 3792 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-15 21:16:34.703  INFO 3792 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-08-15 21:18:30.712  INFO 3792 --- [http-nio-8081-exec-6] com.nikhil.controller.users_controller   : login user method
+2026-08-15 21:18:30.712  INFO 3792 --- [http-nio-8081-exec-6] com.nikhil.service.users_service         : getLogin method
+2026-08-15 21:18:30.731  INFO 3792 --- [http-nio-8081-exec-6] com.nikhil.dao.users_dao                 : MemberBo method
+2026-08-15 21:21:20.726  INFO 3792 --- [http-nio-8081-exec-7] com.nikhil.controller.users_controller   : getById method
+2026-08-15 21:21:20.726  INFO 3792 --- [http-nio-8081-exec-7] com.nikhil.service.users_service         : get by id
+2026-08-15 21:21:20.726  INFO 3792 --- [http-nio-8081-exec-7] com.nikhil.dao.users_dao                 : getById method
+2026-08-15 21:22:53.637  INFO 3792 --- [http-nio-8081-exec-1] com.nikhil.controller.users_controller   : get Registration method
+2026-08-15 21:24:01.711  INFO 3792 --- [http-nio-8081-exec-5] com.nikhil.controller.users_controller   : login user method
+2026-08-15 21:24:01.713  INFO 3792 --- [http-nio-8081-exec-5] com.nikhil.service.users_service         : getLogin method
+2026-08-15 21:24:01.713  INFO 3792 --- [http-nio-8081-exec-5] com.nikhil.dao.users_dao                 : MemberBo method
+2026-08-15 21:32:31.609  INFO 3792 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-08-15 21:32:31.631  INFO 3792 --- [RMI TCP Connection(25)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-08-15 21:32:31.633  INFO 3792 --- [RMI TCP Connection(25)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-08-15 21:32:31.641  INFO 3792 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-15 21:32:31.643  INFO 3792 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : database1 - Shutdown initiated...
+2026-08-15 21:32:31.651  INFO 3792 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : database1 - Shutdown completed.
