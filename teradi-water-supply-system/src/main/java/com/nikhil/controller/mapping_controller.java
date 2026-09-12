@@ -20,6 +20,7 @@ public class mapping_controller {
 	@Autowired
 	private users_service service;
 	
+	//Controller code
 	@RequestMapping(value="/welcome" , method = RequestMethod.GET)
 	public ModelAndView welcomePage() {
 		ModelAndView mav = new ModelAndView();
